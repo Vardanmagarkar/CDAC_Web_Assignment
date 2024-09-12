@@ -9,6 +9,7 @@ This is a feature-rich login page designed with HTML, CSS, and JavaScript. The p
 - **Social Media Links**: Easily integrate with Google, Facebook, GitHub, and LinkedIn.
 - **Client-Side Validation**: Real-time validation for email and password fields.
 - **Password Visibility Toggle**: Show or hide password input with a toggle icon.
+- **Password**: Must contain one capital letter, one small letter, one digit, one special character and minimum 8 character. 
 - **Remember Me Functionality**: Saves the user's email if the "Remember Me" checkbox is selected.
 - **Loading Spinner**: Displays a loading spinner during simulated API calls.
 - **Responsive Design**: Adaptable layout that works across various devices.
