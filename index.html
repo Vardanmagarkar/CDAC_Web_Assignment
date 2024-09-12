@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="form-style.css">
+    <title>Vardan's Login Page</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="info-wrapper">
+                    <p id="info-paragraph"></p>
+                    <p>AWAK is to enhance the quality of people with kidney disease and their caregivers through revolutionary products.</p>
+                </div>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <div class="password-container">
+                    <input type="password" placeholder="Password" id="password-input">
+                    <i class="fa fa-eye" id="toggle-password"></i>
+                </div>
+                <label>
+                    <input type="checkbox" id="remember-me"> Remember Me
+                </label>
+                <a href="#">Forget Your Password?</a>
+                <button type="submit" id="register">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome to!</h1>
+                    <img src="https://awak.com/wp-content/uploads/2021/11/awak-logo.png">
+                    <div id="retrieve-email"></div>
+                    <button class="hidden" id="login">GO-BACK</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Welcome to this WONDERFUL login page made by Vardan Magarkar for AWAK</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loading-spinner" class="spinner" style="display: none;"></div>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
